@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Finding Website</title>
+    <link rel="stylesheet" href="main-style.css">
+</head>
+<body>
+    <header id="header-box">
+
+        <div id="logo-section">
+        <img id="logoOfWebsite"  src="logoOfWebsite.png" alt="College Finding Website." height="90px">
+        </div>
+
+        <div id="slogan-section">
+        <h2> Navigating Your College Journey with Ease.</h2>
+        </div>
+
+        <button class="headerbuttons"onclick="window.location.href='#main-search-section'">Search College</button>
+        <button class="headerbuttons"onclick="window.location.href='#footer-section'">Contact Us</button>
+        <button class="headerbuttons"onclick="window.location.href='#showcase-box'">About</button>
+        <button class="headerbuttons"onclick="window.location.href='indexLogin.html'">Sign up</button>
+
+
+    
+
+    </header>
+    <div class="img-girl-box"><img class="img-girl" src="mainpagepic.jpg" alt=" College girl" height="600px"></div>
+
+    <div class="Information"><p class="info">Welcome,Our website simplifies the college search process by helping students find colleges that match their location preferences and academic or career interests. By focusing on these two key inputs, students can explore a curated list of colleges suited to their goals, making the search experience straightforward and highly relevant. &darr;</p></div>
+  
+    <div id="showcase-box">
+
+        <div class="boxes">
+    <img class="box-img"src="box1.png" alt="Price">
+    <p class="ref1">Achievements</p>
+    <p class="ref2">Achievements play a crucial role in a college student’s life as they reflect growth, dedication, and capability. They boost self-confidence and motivate students to set and achieve higher goals. </p>
+        </div>
+
+    <div class="boxes">
+    <img class="box-img" src="box2.png" alt="Books">
+    <P class="ref1">Learning</P>
+    <p class="ref2">Learning is fundamental in a college student’s life as it shapes their personal, academic, and professional growth. It equips students with critical thinking, problem-solving, and analytical skills essential for navigating real-world challenges. </p>
+    </div>
+
+    <div class="boxes">
+     <img class="box-img" src="box3.png" alt="Graduation">
+     <P class="ref1">Graduation</P>
+     <p class="ref2">Graduation is a significant milestone in a college student’s life, symbolizing the culmination of years of hard work, dedication, and perseverance. It marks the transition from academic life to professional or personal pursuits, opening doors to better career opportunities and financial stability..</p>
+    </div>
+    </div>
+
+    <p class="p1"> Search College Below :</p>
+
+    <main id="main-search-section">
+        
+        <div class="search-container">
+        <input type="text" id="interest" placeholder="Enter your field of interest" list="interest-options">
+        <datalist id="interest-options">
+            <option value="Engineering">
+            <option value="Arts">
+            <option value="Commerce">
+            <option value="Science">
+            <option value="Management">
+            <option value="Information Technology">
+            <option value="Medical">
+            <option value="Education">
+            <option value="Architecture">
+            <option value="Law">
+            <option value="Fashion Design">
+        </datalist>
+        <input type="text" id="location" placeholder="Enter your location (From Maharashtra.)">
+        <button id="searchButton">Search</button>
+         </div> 
+    <div id="results" class="results-container"></div>
+
+    
+
+
+</main>
+
+    
+    <script src="main-js.js"></script>
+
+    <footer id="footer-section"> 
+        <p class="contactLine">Contact us</p>
+        <pre> 
+        Email : Moreyvedant@gmail.com , Suhani123@gmail.com .
+
+        Phone : 8975816705 , 7083692308 .
+        
+        Address : Vasudev Nagar,Nagpur, 440001.
+        
+        City : Nagpur , 440001.
+    </pre>
+
+    <p class="contactLine">Keep Connected</p>
+    <div class="socialMedia">
+   <img class="social"  src="insta.png" alt="instagram">
+   <img class="social"  src="facebook.png" alt="facebook">
+   <img class="social"  src="linken.png" alt="linkin">
+   <img class="social"  src="youtube.png" alt="youtube">
+   <img class="social"  src="pinterest.png" alt="pinterest">
+   <img class="social"  src="gmail.png" alt="gmail">
+   </div>
+
+        </footer>
+
+</body>
+</html>
